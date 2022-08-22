@@ -5,7 +5,7 @@ pipeline {
             pollSCM '* * * * *'
     }
     stages {
-        stage('initws') {
+        stage('initws-') {
             steps {
                 //clean workspace before init
                 echo "cleanws"
